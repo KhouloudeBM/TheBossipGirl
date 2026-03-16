@@ -101,6 +101,10 @@ export default {
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        "marquee-reverse": {
+          "0%": { transform: "translateX(-50%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -110,6 +114,7 @@ export default {
         "slide-in-bottom": "slide-in-bottom 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards",
         "scale-in": "scale-in 1.2s cubic-bezier(0.23, 1, 0.32, 1) forwards",
         "marquee": "marquee 30s linear infinite",
+        "marquee-reverse": "marquee-reverse 30s linear infinite",
       },
     },
   },

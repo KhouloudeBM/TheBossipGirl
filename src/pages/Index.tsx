@@ -5,10 +5,12 @@ import MarqueeSection from "@/components/MarqueeSection";
 import ArsenalSection from "@/components/ArsenalSection";
 import InnerCircleSection from "@/components/InnerCircleSection";
 import FooterSection from "@/components/FooterSection";
+import CustomCursor from "@/components/CustomCursor";
 
 const Index = () => {
   return (
     <div className="bg-background min-h-screen">
+      <CustomCursor />
       <Navigation />
       <HeroSection />
       <MarqueeSection />
